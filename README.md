@@ -7,7 +7,6 @@ A comprehensive machine learning project implementing various supervised learnin
 - [Project Overview](#project-overview)
 - [Dataset](#dataset)
 - [Installation](#installation)
-- [Project Structure](#project-structure)
 - [Features](#features)
 - [Algorithms Implemented](#algorithms-implemented)
 - [Usage](#usage)
@@ -62,26 +61,6 @@ pip install -r requirements.txt
 Or manually install dependencies:
 ```bash
 pip install numpy pandas scikit-learn matplotlib seaborn jupyter
-```
-
-## 📁 Project Structure
-
-```
-Iris-Analysis-Supervised-Learning/
-├── README.md                          # Project documentation
-├── requirements.txt                   # Project dependencies
-├── notebooks/
-│   └── iris_analysis.ipynb           # Jupyter notebook with analysis
-├── src/
-│   ├── data_loader.py                # Data loading utilities
-│   ├── preprocessing.py              # Data preprocessing functions
-│   ├── models.py                     # Model implementation
-│   └── evaluation.py                 # Evaluation metrics
-├── data/
-│   └── iris.csv                      # Iris dataset
-└── results/
-    ├── model_comparison.png          # Model performance visualization
-    └── confusion_matrices.png        # Confusion matrices
 ```
 
 ## ✨ Features
